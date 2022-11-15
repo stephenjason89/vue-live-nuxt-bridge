@@ -1,0 +1,202 @@
+.nuxt-content {
+    font-family: 'Tw Cen MT', serif;
+}
+
+.nuxt-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: dimgrey;
+}
+
+.page-title h2 {
+    font-size: 36px !important;
+    color: #534d4c;
+    font-family: 'Tw Cen MT', serif;
+    font-weight: normal;
+    margin: 12px 0 8px;
+}
+
+.user-manual-toolbar {
+    font-family: 'Tw Cen MT', serif;
+    font-size: 30px;
+}
+
+/* to update */
+.nuxt-content h2 {
+    padding: 8px 0;
+    font-family: 'Tw Cen MT', serif;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(238 153 0);
+    display: table-cell;
+    font-weight: normal;
+}
+
+.nuxt-content th,
+.nuxt-content td {
+    color: rgb(51 51 51);
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: top;
+    font-family: 'Tw Cen MT', serif;
+    border-bottom: 1px solid rgb(232 232 232);
+}
+
+.nuxt-content td {
+    color: rgb(102 153 0);
+}
+
+.nuxt-content td:nth-child(2) {
+    color: rgb(153 0 85);
+}
+
+.nuxt-content td:nth-child(3) {
+    color: rgb(153 0 85);
+}
+
+.nuxt-content td:nth-child(4) {
+    color: black;
+}
+
+.nuxt-content td:nth-child(5) {
+    color: black;
+}
+
+.nuxt-content h2:hover {
+    transition: color 750ms ease-out 0s;
+    color: rgb(238 153 0);
+    cursor: pointer;
+}
+
+.nuxt-content tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+/* Table */
+
+.nuxt-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 48px;
+}
+
+.nuxt-content th {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(232 232 232);
+    text-align: left;
+}
+
+.nuxt-content tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.nuxt-content thead {
+    border-bottom: 1px solid rgb(232 232 232);
+}
+
+/* example-content and display example */
+
+.nuxt-content .example-content {
+    visibility: hidden;
+    margin-top: -3px;
+    border-radius: 10px;
+    border: 2px solid rgb(193 191 191);
+    overflow: auto;
+    padding-right: 50px;
+    background-color: #f3f3f5 !important;
+    max-height: 500px;
+    z-index: 1;
+    position: absolute;
+    transition: visibility 0s, opacity 0.2s ease-in;
+    opacity: 0;
+}
+
+.nuxt-content .example-content code {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.nuxt-content .example-content pre {
+    background-color: rgb(0 0 0 / 0%) !important;
+    margin: 0;
+}
+
+.nuxt-content .example-content:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nuxt-content .display-example {
+    width: fit-content;
+}
+
+.nuxt-content .display-example:hover + .example-content {
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+}
+
+.nuxt-content .display-example:hover {
+    cursor: pointer;
+    display: block;
+}
+
+/* end of example-content and display example */
+
+.nuxt-content .align-comments::before {
+    content: '//';
+}
+
+/* userManual */
+
+.nuxt-content strong {
+    color: #534d4c;
+}
+
+/* outside nuxt-content classes */
+
+.manual-content .list-item-title {
+    color: rgb(22 115 177);
+}
+
+.manual-content .list-item-title:hover {
+    color: rgb(238 153 0);
+}
+
+.manual-content .active-item {
+    font-weight: bold;
+}
+
+.manual-content .list-item {
+    padding: 0 15px;
+    min-height: 26px;
+}
+
+.manual-content .item-content {
+    padding: 0;
+}
+
+.manual-content .style-guide-title {
+    padding: 16px;
+    border-bottom: 1px solid rgb(232 232 232);
+}
+
+.manual-content .style-guide-title h1 {
+    color: rgb(51 51 51);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+.manual-content .nav-drawer {
+    background-color: rgb(245 245 245) !important;
+    border-width: 0;
+}
